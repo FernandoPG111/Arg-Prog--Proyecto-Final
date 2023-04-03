@@ -1,0 +1,54 @@
+    <header>
+        <h2><img src="./assets/images/logo/logo-grande/logo-grande.png" alt="logo" class="logoNav"></h2>
+        <nav>
+            <a href="#sobreNosotros">Nosotros</a>
+            <a href="#cotizacion">Cotizacion</a>
+            <a href="#contactenos">Contactenos</a>
+        </nav>
+        <button class="btn-menu">
+            <i class="bi bi-list"></i>
+        </button>
+    </header>
+
+
+header css
+
+header{
+    background-color: #f68b8a;
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    padding: 3vh 5vw;
+    align-items: center;
+}
+header nav{
+    display: flex;
+    gap: 3vw;
+    height: 40px;
+    align-items: center;
+}
+header nav a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.logoNav{
+
+max-height: 50px;
+
+}
+.btn-menu {
+    background-color: transparent;
+    border: none;
+    /* width: 40px;
+    height: 40px; */
+    /* border-radius: 5px; */
+    color: white;
+    font-size: 25px;
+    /* oculta el elemento */
+    display: none;
+}
